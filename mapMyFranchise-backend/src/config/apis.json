@@ -1,0 +1,24 @@
+{
+  "POST": {
+    "/api/v1/register":{
+      "name": "register user api",
+      "id": "1",
+      "category": "user"
+    },
+    "/api/v1/login":{
+      "name": "login user api",
+      "id": "2",
+      "category" : "user"
+    }
+  },
+  "GET": {
+    "/api/v1/users":{
+      "name": "get all users api",
+      "id": "3",
+      "category" : "user"
+    }
+  },
+  "DELETE": {},
+  "PUT":{},
+  "Other": {}
+}

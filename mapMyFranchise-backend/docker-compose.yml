@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0       # Use the official MySQL 8.0 image
+    environment:
+      MYSQL_ROOT_PASSWORD: Rapid@123456  # Set root password
+      MYSQL_DATABASE: khodal_LED        # Create a default database
+    ports:
+      - "3306:3306"       # Expose MySQL port
+    volumes:
+      - mysql_data:/var/lib/mysql  # Persist data across restarts
+
+volumes:
+  mysql_data:
+    driver: local   # Use Docker volume to persist data

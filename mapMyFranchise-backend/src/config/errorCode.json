@@ -1,0 +1,11 @@
+{
+  "101" : "User already exists",
+  "102" : "Authorization Token missing",
+  "103" : "Invalid Authorization Token",
+  "104" : "Access denied for non-admin users",
+  "105" : "User account is inactive",
+  "106" : "Authentication failed",
+  "107" : "All fields are required",
+  "108" : "Invalid email or password",
+  "109" : "user has no permission to access all users list"
+}
